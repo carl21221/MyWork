@@ -1,17 +1,59 @@
 html 
 {
-    display: flex;
-    flex-shrink: none;
-    flex-basis: 50px;
-    flex-grow: none;
-    justify-content: center;
-    font-weight: 500;
+    min-height: 100%;
+    min-width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: white;
 
-    min-width: 800px;
-    min-height: 50px;
+    /*----- background stuff ----*/
+    background-color: rgb(255,255,255);
+    background: url(images/page_background_default.png) no-repeat center center fixed; 
+    background-size: cover;
+    
+    /* does it for different browsers */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 
-    width: 100%;
-    background-color: gray;
-    white-space: nowrap;
+h1
+{
+    text-align: center;
     text-shadow: 0px 2px black;
 }
+
+.maincontent
+{
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+    min-width: 800px;
+    max-width: 1200px;
+    width: 60%;
+
+    padding: 10px 20px 30px 20px;
+    background-color: rgb(128,128,128);
+
+    border-style: solid solid none solid;
+
+    border-color: black; 
+    border-width: 2px;  
+}
+
+.producthubimage
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.productPhoto
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
