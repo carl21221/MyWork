@@ -1,0 +1,17 @@
+html 
+{
+    display: flex;
+    flex-shrink: none;
+    flex-basis: 50px;
+    flex-grow: none;
+    justify-content: center;
+    font-weight: 500;
+
+    min-width: 800px;
+    min-height: 50px;
+
+    width: 100%;
+    background-color: gray;
+    white-space: nowrap;
+    text-shadow: 0px 2px black;
+}
