@@ -1,0 +1,50 @@
+html
+{
+    font-family: 'Roboto Condensed', sans-serif;    
+    color: #08428C;
+}
+
+header
+{
+    height: fit-content;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 25px;
+    color: #08428C;
+    min-width: 1000px;
+}
+
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+    background-color: black;
+    background-image: url("images\page_background.jpg");
+}
+
+.mainLogo
+{
+}
+
+.navItem
+{
+    display: inline;
+    padding: 0px 20px 0 10px;
+    margin: 0px;
+    flex-flow: nowrap;
+    text-decoration: none;
+}
+
+nav:last-child
+{
+    padding-right: 20px;
+}
+
+
+
