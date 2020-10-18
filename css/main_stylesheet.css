@@ -6,41 +6,74 @@ html
 
 header
 {
-    height: fit-content;
+    max-height: 50px;
     width: 100%;
     background-color: white;
     margin: 0;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
     font-size: 25px;
     color: #08428C;
-    min-width: 1000px;
+    min-width: 1200px;
+    padding-left: 10px;
+}
+
+.headerLogo
+{
+    height: 45px;
+    padding-top:5px;
 }
 
 body 
 {
     margin: 0px;
     padding: 0px;
+    background-image: url(../images/page_background.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-color: black;
-    background-image: url("images\page_background.jpg");
+    background-size: 100%;
 }
 
+
+/* --- Navbar Styling --- */
+
+nav
+{
+}
 .navItem
 {
     display: inline;
-    padding: 0px 20px 0 10px;
-    margin: 0px;
     flex-flow: nowrap;
-    text-decoration: none;
+    padding:0px 20px;
 }
-
 nav:last-child
 {
-    padding-right: 20px;
+ padding: 0;
 }
+.navItem a
+{  
+    text-decoration: none;
+}
+.navItem a:hover
+{
+    color: #8892a0;
+}
+.navItem a:link
+{
+    color: #08428C;
+}
+.navItem a:active
+{
+    color: #006cfa;
+}
+.navItem a:visited
+{
+    color: #08428C;
+}
+
+
 
 
 
