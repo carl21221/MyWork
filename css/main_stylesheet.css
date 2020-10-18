@@ -1,7 +1,17 @@
 html
 {
     font-family: 'Roboto Condensed', sans-serif;    
-    color: #08428C;
+    color: white;
+
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+h1
+{
+    text-align: center;
 }
 
 header
@@ -16,21 +26,19 @@ header
     font-size: 25px;
     color: #08428C;
     min-width: 1200px;
-    padding-left: 10px;
 }
 
 .headerLogo
 {
     height: 45px;
     padding-top:5px;
+    padding-left: 30px;
 }
 
 body 
 {
     margin: 0px;
     padding: 0px;
-    background-image: url(../images/page_background.jpg);
-    background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: black;
     background-size: 100%;
@@ -50,7 +58,7 @@ nav
 }
 nav:last-child
 {
- padding: 0;
+    padding: 0;
 }
 .navItem a
 {  
@@ -73,6 +81,39 @@ nav:last-child
     color: #08428C;
 }
 
+/* ----------------------------- Main Image ----------------------------- */
+.mainImageContainer
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.mainImageContainer img
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ----------------------------- Lower Portion ----------------------------- */
+.mainInfoContainer
+{
+    margin: 0px;
+    min-height: 200px;
+    background-color: rgb(59, 59, 59);
+    padding-top: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* --------------------------- Footer ----------------------------- */
+footer
+{
+    height:fit-content;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
 
 
 
