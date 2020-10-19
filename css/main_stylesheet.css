@@ -101,10 +101,27 @@ nav:last-child
     margin: 0px;
     min-height: 200px;
     background-color: rgb(59, 59, 59);
-    padding-top: 5px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 10px 0px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
+
+/*------------------------------Form Styling ----------------------------------*/
+.contactForm
+{
+}
+
+input[type=text]
+{
+    padding:2px 2px;
+}
+
+input[type="email"]
+{ 
+    padding:2px 2px;
+}
+
+
 
 /* --------------------------- Footer ----------------------------- */
 footer

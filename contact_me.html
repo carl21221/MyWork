@@ -6,6 +6,7 @@
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 <!-- Stylesheets -->
+<!-- desktop stylesheet -->
 <link href="css\main_stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 <!-- Page Contents -->
@@ -15,17 +16,62 @@
             <img src="images/logo_carltylerse.png" class=headerLogo></img>
         </div>
         <nav>
-            <ul>
-            <li class="navItem">Home</li>
-            <li class="navItem">Education</li>
-            <li class="navItem">Work Experience</li>
-            <li class="navItem">Projects</li>
-            <li class="navItem">Contact Me</li>
-            </ul>
+            <div class="navItem"><a href="index.html">Home</a></li>
+            <div class="navItem"><a href="education.html">Education</li>
+            <div class="navItem"><a href="education.html">Work Experience</a></li>
+            <div class="navItem"><a href="education.html">Projects</a></li>
+            <div class="navItem"><a href="education.html">Contact Me</a></li>
         </nav>
     </header>
     <div class="mainContainer">
+        <div class="mainInfoContainer">
+            <h1>Contact Me</h1>
+            <p>
+                I appreciate you taking the time to contact me. Please fill in the form below and I will be in contact a soon as possible.
+            </p>
+            <form action="thank_you.html" method="post" class ="contactForm"> 
+                <div>
+                    <label for="fistName">First Name:</label><br>
+                    <input type="text" name="firstName" id="firstName" placeholder="Enter first name" size="28" required><br><br>
+                </div>
+                <div>
+                    <label for="surName">Surname:</label><br>
+                    <input type="text" name="surName" id="surName" placeholder="Enter surname" size="28" required><br> <br>
+                </div>
+                <div>
+                    <label for="email">Email Address:</label><br>
+                    <input type="text" name="email" id="email" required placeholder="Enter email address" size="28" required><br><br>
+                </div>
+                <div>
+                    <label for="contactNum">Contact Number:</label><br>
+                    <input type="text" name="contactNum" id="contactNum" required placeholder="Enter contact number" size="28" required><br><br>
+                </div>
+                <div>
+                    <label for="message">Your Message:</label><br>
+                    <textarea 
+                    for="message"
+                    id="message" 
+                    cols="30" 
+                    rows="10"
+                    required>
+                    </textarea><br><br>
+                </div>
+                <div>
+                    <input type="submit" value="Send Message">
+                </div>
 
+            </form>
+        </div>
     </div>
 </body>
+<footer>
+    <p>
+
+    </p> <br>
+
+    <p>
+        Website created by Carl Tyler <br>
+        Copyright © 2020. All Rights Reserved.
+    </p>
+</footer>
 </html>
