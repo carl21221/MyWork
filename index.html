@@ -5,8 +5,9 @@
 <title>Carl Tyler - Software Engineer</title>
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-<!-- Stylesheets -->
-<link href="css\main_stylesheet.css" rel="stylesheet" type="text/css">
+<!-- Stylesheets -- Loads mobile first, and loads desktop afterwards if the viewport is wide enough -->
+<link href="css\main_stylesheet_mobile.css" rel="stylesheet" type="text/css">
+<link href="css\main_stylesheet_desktop.css" rel="stylesheet" media="only screen and (min-width: 1000px)" type="text/css" >
 </head>
 <!-- Page Contents -->
 <body>
@@ -21,16 +22,26 @@
             <div class="navItem"><a href="education.html">Projects</a></li>
             <div class="navItem"><a href="education.html">Contact Me</a></li>
         </nav>
+        <div id="burgerButton">
+            <div class="burgerButtonBar1"></div>  
+            <div class="burgerButtonBar2"></div>   
+            <div class="burgerButtonBar3"></div>
+        </div>
     </header>
+    <!--- Main Body --->
     <div class="mainContainer">
         <div class="mainImageContainer">
             <img src="images/placeholder_profileimage.jpg"></img>
         </div>
         <div class="mainInfoContainer">
-            <h1>About</h1>
-            <p>
+            <div class="headerColumn">
+                <h2>About</h2>
+            </div>
+            <div class="textColumn">
                 Here is some information about me, this is going to be a great section and I cant wait for it to be written fully.
-            </p>
+
+            </div>
+                
         </div>
     </div>
 </body>
